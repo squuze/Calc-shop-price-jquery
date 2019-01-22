@@ -40,22 +40,21 @@
               <br />
               <label for="card_paper">Выберите тип бумаги</label>
               <select name="card_paper" id="card_paper" class="form-control">
-                <option value="Мелованная бумага(белая)">Мелованная бумага(белая)</option>
-                <option value="Бумага повышеной белезны">Бумага повышеной белезны</option>
-                <option value="Лён(белый)">Лён(белый)</option>
+                <option data-paper-ratio="6.8" value="Мелованная бумага(белая)">Мелованная бумага(белая)</option>
+                <option data-paper-ratio="40.5" value="Бумага повышеной белезны">Бумага повышеной белезны</option>
+                <option data-paper-ratio="45" value="Лён(белый)">Лён(белый)</option>
               </select>
               <br />
               <label for="card_color">Выберите цветность</label>
               <select name="card_color" id="card_color" class="form-control">
-                <option value="Одностороняя черно-белая">Одностороняя черно-белая</option>
-                <option value="Двустороняя черно-белая">Двустороняя черно-белая</option>
-                <option value="Одностороняя цветная">Одностороняя цветная</option>
-                <option value="Цветная и черно-белая">Цветная и черно-белая</option>
-                <option value="Двухстороняя цветная">Двухстороняя цветная</option>
+                <option data-print="14" data-print-file="110" value="Одностороняя черно-белая">Одностороняя черно-белая</option>
+                <option data-print="28" data-print-file="220" value="Двустороняя черно-белая">Двустороняя черно-белая</option>
+                <option data-print="37" data-print-file="110" value="Одностороняя цветная">Одностороняя цветная</option>
+                <option data-print="51" data-print-file="220" value="Цветная и черно-белая">Цветная и черно-белая</option>
+                <option data-print="74" data-print-file="220" value="Двухстороняя цветная">Двухстороняя цветная</option>
               </select>
               <br />
-              <h4>Всего:</h4>
-              <span id="final_price"></span>
+              <h4>Всего: <span id="final_price">0</span> руб.</h4>
             </div>
           </div>
           <div class="col-sm-6">
